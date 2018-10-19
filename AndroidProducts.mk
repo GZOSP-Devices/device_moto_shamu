@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/validus_shamu.mk
+    $(LOCAL_DIR)/gzosp_shamu.mk
 

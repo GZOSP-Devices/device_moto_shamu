@@ -19,7 +19,7 @@ TARGET_SCREEN_WIDTH := 1440
 TARGET_BOOTANIMATION_HALF_RES := true
 
 # Inherit Validus product configuration
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -29,7 +29,7 @@ $(call inherit-product, device/moto/shamu/device.mk)
 $(call inherit-product-if-exists, vendor/motorola/shamu/shamu-vendor.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := validus_shamu
+PRODUCT_NAME := gzosp_shamu
 PRODUCT_DEVICE := shamu
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6
